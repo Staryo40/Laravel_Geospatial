@@ -23,6 +23,7 @@ foreach ([
     'APP_ROUTES_CACHE' => '/tmp/storage/framework/cache/routes.php',
     'APP_EVENTS_CACHE' => '/tmp/storage/framework/cache/events.php',
     'VIEW_COMPILED_PATH' => '/tmp/storage/framework/views',
+    'ASSET_URL' => '/',
 ] as $key => $val) {
     putenv("{$key}={$val}");
     $_ENV[$key] = $val;
