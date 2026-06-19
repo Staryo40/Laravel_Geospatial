@@ -60,23 +60,8 @@
             </p>
 
             <p class="mt-3 text-slate-500 text-sm leading-relaxed">
-                focused on building scalable systems, real-time applications, and AI-driven solutions.
+                focused on building scalable systems and real-time applications.
             </p>
-
-            <div class="grid grid-cols-3 gap-4 pt-5 mt-5 border-t border-slate-100">
-                <div>
-                    <span class="block text-xl font-bold text-slate-800 leading-none">3+</span>
-                    <span class="block text-[10px] text-slate-400 mt-1 uppercase font-semibold">Years Exp</span>
-                </div>
-                <div>
-                    <span class="block text-xl font-bold text-slate-800 leading-none">12+</span>
-                    <span class="block text-[10px] text-slate-400 mt-1 uppercase font-semibold">Projects</span>
-                </div>
-                <div>
-                    <span class="block text-xl font-bold text-slate-800 leading-none">GIS</span>
-                    <span class="block text-[10px] text-slate-400 mt-1 uppercase font-semibold">Focus</span>
-                </div>
-            </div>
 
             <div class="mt-6 pt-5 border-t border-slate-100 space-y-3.5">
                 <div class="flex items-start gap-3">
@@ -96,26 +81,14 @@
             </div>
 
             <div class="mt-6 pt-5 border-t border-slate-100 flex flex-wrap gap-3">
-                <a href="https://github.com/arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-slate-900 text-white hover:bg-[#0071e3] transition-all duration-200 hover:scale-105 shadow-sm" title="GitHub">
+                <a href="https://github.com/Staryo40" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-slate-900 text-white hover:bg-[#0071e3] transition-all duration-200 hover:scale-105 shadow-sm" title="GitHub">
                     <i class="fab fa-github text-sm"></i>
                 </a>
-                <a href="https://linkedin.com/in/arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#0e76a8] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/aryo-wisanggeni-5500b8283/" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#0e76a8] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="LinkedIn">
                     <i class="fab fa-linkedin-in text-sm"></i>
                 </a>
                 <a href="mailto:arrrryow@gmail.com" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#ea4335] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="Email">
                     <i class="fas fa-envelope text-sm"></i>
-                </a>
-                <a href="https://instagram.com/arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#c13584] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="Instagram">
-                    <i class="fab fa-instagram text-sm"></i>
-                </a>
-                <a href="https://twitter.com/arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#1da1f2] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="Twitter">
-                    <i class="fab fa-twitter text-sm"></i>
-                </a>
-                <a href="https://medium.com/@arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-slate-955 bg-slate-950 text-white hover:bg-[#0071e3] transition-all duration-200 hover:scale-105 shadow-sm" title="Medium">
-                    <i class="fab fa-medium text-sm"></i>
-                </a>
-                <a href="https://kaggle.com/arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#20beff] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="Kaggle">
-                    <i class="fab fa-kaggle text-sm"></i>
                 </a>
             </div>
         </div>
