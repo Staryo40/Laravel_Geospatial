@@ -143,11 +143,6 @@
                 </div>
             </div>
         </div>
-
-        <div class="mt-auto pt-4 border-t border-slate-100 flex items-center justify-between hidden md:flex">
-            <span class="text-[9px] text-slate-400 uppercase tracking-widest font-semibold">OSM Tiles Loaded</span>
-            <span class="inline-flex items-center rounded-full bg-blue-50 px-2 py-0.5 text-[9px] font-bold text-[#0071e3]">Live</span>
-        </div>
     </aside>
 
     <!-- Map Container -->
