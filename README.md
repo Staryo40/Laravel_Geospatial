@@ -4,7 +4,7 @@ This repository contains the scaffolded skeleton for a "frontend-heavy" Laravel 
 
 ---
 
-## 🛠️ Project Features
+## Project Features
 
 - **Laravel 11 Skeleton**: Clean, lightweight architecture with default configuration tailored for high-speed serverless executions.
 - **Tailwind CSS v4 & Vite**: Blazing fast compilation and styling directly integrated into Vite.
@@ -15,7 +15,7 @@ This repository contains the scaffolded skeleton for a "frontend-heavy" Laravel 
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 Follow these steps to set up the project on your local machine:
 
@@ -46,7 +46,7 @@ php artisan key:generate
 
 ---
 
-## 💻 Local Development
+## Local Development
 
 To run the application locally, start both the PHP development server and Vite asset compiler:
 
@@ -67,29 +67,7 @@ npm run dev
 
 ---
 
-## 📦 Production & Deployment
-
-### Build Assets
-Before deploying or compiling for production, build the static assets:
-
-```bash
-npm run build
-```
-
-### Deploying to Vercel
-This project includes pre-configured routing for Vercel. 
-
-To deploy:
-1. Install the Vercel CLI: `npm install -g vercel`
-2. Run the deployment command from the project root:
-   ```bash
-   vercel
-   ```
-3. Set your environment variables in Vercel settings (e.g., copy your `.env` variables like `APP_KEY`, `APP_ENV=production`, etc.).
-
----
-
-## 📂 Directory Layout
+## Directory Layout
 
 ```text
 ├── api/
@@ -117,12 +95,25 @@ To deploy:
 └── README.md                 # Project instructions and documentation
 ```
 
-## Laravel Template Dir
-Here is a list of the directories in the project that remain **completely unmodified** and are exactly as they were created by the default Laravel 11 template:
+---
+## Creator
 
-- `app/`: Contains the core application code (Models, HTTP Controllers, Middleware, and Providers).
-- `bootstrap/`: Handles application bootstrapping (`app.php` and `providers.php`).
-- `config/`:(file:///c:/Users/Aryo/PersonalMade/SoftwareProjects/MAPID_Internship/Selection_Laravel%20Geospatial/config)**: Holds all standard Laravel configuration files (e.g., `app.php`, `database.php`, `session.php`).
-- `database/`(file:///c:/Users/Aryo/PersonalMade/SoftwareProjects/MAPID_Internship/Selection_Laravel%20Geospatial/database)**: Stores migrations, seeders, and factories (only `database.sqlite` was automatically generated during installation).
-- `storage/`(file:///c:/Users/Aryo/PersonalMade/SoftwareProjects/MAPID_Internship/Selection_Laravel%20Geospatial/storage)**: Used for compiled Blade views, sessions, cache, and logs.
-- `tests/`(file:///c:/Users/Aryo/PersonalMade/SoftwareProjects/MAPID_Internship/Selection_Laravel%20Geospatial/tests)**: Contains default PHPUnit/Pest testing classes.
+<table>
+    <tr align="left">
+        <td><b>NIM</b></td>
+        <td><b>Name</b></td>
+        <td align="center"><b>GitHub</b></td>
+    </tr>
+    <tr align="left">
+        <td>13523100</td>
+        <td>Aryo Wisanggeni</td>
+        <td align="center" >
+            <div style="margin-right: 20px;">
+            <a href="https://github.com/Staryo40" >
+                <img src="https://avatars.githubusercontent.com/u/139449070?v=4" width="48px;" alt=""/> 
+                <br/> <sub><b> @Staryo40 </b></sub>
+            </a><br/>
+            </div>
+        </td>
+    </tr>
+</table>
