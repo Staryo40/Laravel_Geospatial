@@ -12,8 +12,6 @@ Route::get('/map', function () {
     return view('map');
 });
 
-// Custom 404 Fallback Route
 Route::fallback(function () {
     return response()->view('errors.404', [], 404);
 });
-

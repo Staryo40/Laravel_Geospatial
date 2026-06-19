@@ -6,7 +6,7 @@
 @section('content')
 <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-20 flex-grow flex flex-col justify-center">
     <div class="grid grid-cols-1 gap-12 lg:grid-cols-12 items-start">
-    
+        
         <div class="lg:col-span-7 flex flex-col justify-center gap-6">
             <div>
                 <span class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-[#0071e3] ring-1 ring-inset ring-blue-500/10">
@@ -19,9 +19,7 @@
             </h2>
 
             <p class="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl">
-                An interactive geographic information system (GIS) skeleton built to run completely serverless and database-free (Frontend Only). 
-                The application fetches OpenStreetMap data layers dynamically over a client-side CDN using MapLibre GL JS. 
-                Users can toggle drawing modes to map coordinates to render and draw lines and points on the map.
+                An interactive geographic information system (GIS) skeleton built to run completely serverless and database-free. The application fetches OpenStreetMap data layers dynamically over a client-side CDN using MapLibre GL JS, allowing seamless vector tile rendering. Users can toggle drawing modes to map coordinates, render lines, track current views, and manage geometry layers on the fly.
             </p>
 
             <div class="pt-2">
@@ -32,7 +30,7 @@
                     </svg>
                 </a>
             </div>
-
+            
             <div class="pt-4 border-t border-slate-100 mt-4">
                 <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-2">Built With</span>
                 <div class="flex flex-wrap gap-2">
@@ -45,12 +43,11 @@
             </div>
         </div>
 
-        <!-- Right Column: "Created by" Profile -->
         <div class="lg:col-span-5 bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm">
             <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-4">Project Author</span>
             
             <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-widest">Created by:</h3>
-
+            
             <div class="mt-2">
                 <h1 class="text-3xl font-bold tracking-tight text-slate-900">
                     Aryo Wisanggeni
@@ -63,8 +60,23 @@
             </p>
 
             <p class="mt-3 text-slate-500 text-sm leading-relaxed">
-                focused on building scalable systems and real-time applications.
+                focused on building scalable systems, real-time applications, and AI-driven solutions.
             </p>
+
+            <div class="grid grid-cols-3 gap-4 pt-5 mt-5 border-t border-slate-100">
+                <div>
+                    <span class="block text-xl font-bold text-slate-800 leading-none">3+</span>
+                    <span class="block text-[10px] text-slate-400 mt-1 uppercase font-semibold">Years Exp</span>
+                </div>
+                <div>
+                    <span class="block text-xl font-bold text-slate-800 leading-none">12+</span>
+                    <span class="block text-[10px] text-slate-400 mt-1 uppercase font-semibold">Projects</span>
+                </div>
+                <div>
+                    <span class="block text-xl font-bold text-slate-800 leading-none">GIS</span>
+                    <span class="block text-[10px] text-slate-400 mt-1 uppercase font-semibold">Focus</span>
+                </div>
+            </div>
 
             <div class="mt-6 pt-5 border-t border-slate-100 space-y-3.5">
                 <div class="flex items-start gap-3">
@@ -84,14 +96,26 @@
             </div>
 
             <div class="mt-6 pt-5 border-t border-slate-100 flex flex-wrap gap-3">
-                <a href="https://github.com/Staryo40" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-slate-905 bg-slate-900 text-white hover:bg-[#0071e3] transition-all duration-200 hover:scale-105 shadow-sm" title="GitHub">
+                <a href="https://github.com/arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-slate-900 text-white hover:bg-[#0071e3] transition-all duration-200 hover:scale-105 shadow-sm" title="GitHub">
                     <i class="fab fa-github text-sm"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/aryo-wisanggeni-5500b8283/" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#0e76a8] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="LinkedIn">
+                <a href="https://linkedin.com/in/arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#0e76a8] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="LinkedIn">
                     <i class="fab fa-linkedin-in text-sm"></i>
                 </a>
                 <a href="mailto:arrrryow@gmail.com" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#ea4335] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="Email">
                     <i class="fas fa-envelope text-sm"></i>
+                </a>
+                <a href="https://instagram.com/arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#c13584] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="Instagram">
+                    <i class="fab fa-instagram text-sm"></i>
+                </a>
+                <a href="https://twitter.com/arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#1da1f2] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="Twitter">
+                    <i class="fab fa-twitter text-sm"></i>
+                </a>
+                <a href="https://medium.com/@arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-slate-955 bg-slate-950 text-white hover:bg-[#0071e3] transition-all duration-200 hover:scale-105 shadow-sm" title="Medium">
+                    <i class="fab fa-medium text-sm"></i>
+                </a>
+                <a href="https://kaggle.com/arrrryow" target="_blank" rel="noopener noreferrer" class="flex h-9 w-9 items-center justify-center rounded-full bg-[#20beff] text-white hover:bg-slate-900 transition-all duration-200 hover:scale-105 shadow-sm" title="Kaggle">
+                    <i class="fab fa-kaggle text-sm"></i>
                 </a>
             </div>
         </div>

@@ -3,10 +3,8 @@
 @section('title', 'Laravel Geospatial - Live Map')
 
 @section('head')
-<!-- MapLibre GL JS CSS -->
 <link href="https://unpkg.com/maplibre-gl@4.3.0/dist/maplibre-gl.css" rel="stylesheet" />
 <style>
-    /* Clean overrides for MapLibre controls */
     .maplibregl-ctrl-attrib {
         background-color: rgba(255, 255, 255, 0.8) !important;
         color: #475569 !important;
@@ -145,6 +143,11 @@
                 </div>
             </div>
         </div>
+
+        <div class="mt-auto pt-4 border-t border-slate-100 flex items-center justify-between hidden md:flex">
+            <span class="text-[9px] text-slate-400 uppercase tracking-widest font-semibold">OSM Tiles Loaded</span>
+            <span class="inline-flex items-center rounded-full bg-blue-50 px-2 py-0.5 text-[9px] font-bold text-[#0071e3]">Live</span>
+        </div>
     </aside>
 
     <!-- Map Container -->
@@ -192,10 +195,9 @@
         let lines = [];
         let polygons = [];
 
-        // Drawing state variables
-        let activeMode = null;
+        let activeMode = null; 
         let lineStartCoordinate = null; 
-        let tempMarker = null;
+        let tempMarker = null; 
 
         // Polygon drawing state variables
         let polygonCoordinates = []; 
@@ -382,7 +384,7 @@
                             color: selectedColor
                         };
                         lines.push(newLine);
-
+                        
                         lineStartCoordinate = null;
                         clearTempMarker();
                         
@@ -392,6 +394,7 @@
                     }
                 } else if (activeMode === 'polygon') {
                     polygonCoordinates.push(coordinates);
+                    
                     const el = document.createElement('div');
                     el.className = 'w-2.5 h-2.5 rounded-full border border-white shadow-sm transition-all duration-200';
                     el.style.backgroundColor = selectedColor;
@@ -399,7 +402,7 @@
                         .setLngLat(coordinates)
                         .addTo(map);
                     polygonMarkers.push(vertexMarker);
-
+                    
                     updatePolygonPreview();
                     
                     if (polygonCoordinates.length === 1) {
@@ -417,6 +420,7 @@
             if (loader) {
                 loader.innerHTML = `
                     <div class="text-center p-6 border border-red-200 bg-red-50 rounded-2xl max-w-sm mx-4">
+                        <span class="text-2xl">⚠️</span>
                         <p class="text-xs font-bold text-red-600 mt-2">Map Render Failed</p>
                         <p class="text-[10px] text-slate-500 mt-1">${e.message || 'Please reload page.'}</p>
                     </div>
@@ -445,7 +449,7 @@
         // Bind click handler to the floating Finish Polygon button
         if (floatingFinishBtn) {
             floatingFinishBtn.addEventListener('click', function(e) {
-                e.stopPropagation();
+                e.stopPropagation(); 
                 window.finishPolygon();
             });
         }
@@ -581,7 +585,7 @@
                 const isPolygon = polygonCoordinates.length >= 3;
                 
                 if (isPolygon) {
-                    previewCoords.push(polygonCoordinates[0]);
+                    previewCoords.push(polygonCoordinates[0]); 
                 }
 
                 const geojson = {
@@ -761,7 +765,7 @@
             };
             
             polygons.push(newPolygon);
-
+            
             polygonCoordinates = [];
             clearPolygonMarkers();
             clearPolygonPreview();
